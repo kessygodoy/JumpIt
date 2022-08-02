@@ -11,7 +11,7 @@ GameObject:
   - component: {fileID: 3918026877287817383}
   - component: {fileID: 8888167455211953990}
   m_Layer: 6
-  m_Name: "plM\xE9dia"
+  m_Name: "plM\xE9dia 1"
   m_TagString: Ground
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -129,7 +129,7 @@ SpriteRenderer:
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: 0
   m_SortingLayer: 0
-  m_SortingOrder: 1
+  m_SortingOrder: 0
   m_Sprite: {fileID: 1302468282716771106, guid: 13f41f085f5f0d34786964889b35b06c, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
@@ -211,7 +211,7 @@ SpriteRenderer:
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: 0
   m_SortingLayer: 0
-  m_SortingOrder: 1
+  m_SortingOrder: 0
   m_Sprite: {fileID: 146184735804603846, guid: 13f41f085f5f0d34786964889b35b06c, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0

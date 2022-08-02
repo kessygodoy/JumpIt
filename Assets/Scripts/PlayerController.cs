@@ -12,6 +12,7 @@ public class PlayerController : MonoBehaviour
     private bool isJumping = false;
     private bool isWalking;
     private GameController _gameController;
+    private GameControllerInfinity _gameControllerInfinity;
     private LevelController _levelController;
 
 
@@ -39,6 +40,7 @@ public class PlayerController : MonoBehaviour
         rb = GetComponent<Rigidbody2D>();
         anim = GetComponent<Animator>();
         _gameController = FindObjectOfType<GameController>();
+        _gameControllerInfinity = FindObjectOfType<GameControllerInfinity>();
         _levelController = FindObjectOfType<LevelController>();
     }
 
@@ -166,6 +168,10 @@ public class PlayerController : MonoBehaviour
                 fxGame.PlayOneShot(fxJump);
                 isJumping = true;
                 break;
+            /*case "GeraNovoMapa":
+                _gameControllerInfinity.GeraNovoMapa();
+                Destroy(collision.gameObject);
+                break;*/
         }
     }
 

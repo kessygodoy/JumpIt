@@ -5,6 +5,7 @@ using UnityEngine.UI;
 
 public class GameController : MonoBehaviour
 {
+    
     private PlayerController player;
 
     public Camera cam;
